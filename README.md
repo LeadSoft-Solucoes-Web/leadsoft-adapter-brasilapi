@@ -9,7 +9,7 @@ Fornece uma camada simples e testável para consumir endpoints públicos da Bras
 > Somos gratos pela iniciativa de disponibilizar dados públicos de forma aberta. Conheça o projeto oficial e utilizando este pacote, você concorda automaticamente com os [termos de uso da BrasilAPI](https://brasilapi.com.br/#termos-de-uso).
 
 #### [Nuget.Org: LeadSoft.Adapter.BrasilAPI](https://www.nuget.org/packages/LeadSoft.Adapter.BrasilAPI)
-#### [GitHub Repo: LeadSoft-Adapter-BrasilAPI](https://github.com/LeadSoft-Solucoes-Web/LeadSoft-Adapter-BrasilAPI)
+#### [GitHub Repo: leadsoft-adapter-brasilapi](https://github.com/LeadSoft-Solucoes-Web/leadsoft-adapter-brasilapi)
 
 ## Principais características
 - Compatível com .NET 9.0.
