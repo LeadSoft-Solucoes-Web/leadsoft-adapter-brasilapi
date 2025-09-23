@@ -3,12 +3,12 @@
 	<PropertyGroup>
 		<TargetFramework>net9.0</TargetFramework>
 		<Company>LeadSoft® Soluções Web Ltda</Company>
-		<Authors>Lucas R. Tavares | Frederico F. Bitencourt</Authors>
+		<Authors>Lucas R. Tavares</Authors>
 		<Product>LeadSoft® Brasil Api Adapter</Product>
-		<RepositoryType>Bitbucket</RepositoryType>
+		<RepositoryType>git</RepositoryType>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Description>LeadSoft® Brasil Api integration methods and classes.</Description>
-		<RepositoryUrl>https://bitbucket.org/leadsoft_solucoes_web/leadsoft-common-lib/</RepositoryUrl>
+		<RepositoryUrl>https://github.com/LeadSoft-Solucoes-Web/LeadSoft-Adapter-BrasilAPI</RepositoryUrl>
 		<NeutralLanguage>en-US</NeutralLanguage>
 		<PackageIcon>LeadSoft.png</PackageIcon>
 		<PackageProjectUrl>https://www.leadsoft.inf.br/</PackageProjectUrl>
@@ -46,9 +46,13 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <None Include="..\LeadSoft.png" Link="LeadSoft.png">
-	    <PackagePath></PackagePath>
+	  <Content Include="LeadSoft.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="..\README.md">
 	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
 	  </None>
 	</ItemGroup>
 
@@ -72,6 +76,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<None Update="LeadSoft.png">
+		  <Pack>True</Pack>
+		  <PackagePath>\</PackagePath>
+		</None>
 		<None Update="README.md">
 			<PackagePath>\</PackagePath>
 			<Pack>True</Pack>
