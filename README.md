@@ -1,11 +1,14 @@
 ﻿# LeadSoft® Brasil Api Integration Adapter
-## LeadSoft.Adapter.BrasilAPI
+## [LeadSoft.Adapter.BrasilAPI](https://www.nuget.org/packages/LeadSoft.Adapter.BrasilAPI)
+
 
 Adapter .NET para integrar com serviços públicos da BrasilAPI (https://brasilapi.com.br/).
 Fornece uma camada simples e testável para consumir endpoints públicos da BrasilAPI (ex.: Bancos, CNPJ, Feriados, etc.), encapsulando chamadas HTTP, mapeamento de modelos e tratamento de erros de forma consistente para aplicações .NET 9.
 
 > Este pacote é um tributo independente e não é afiliado oficialmente à [BrasilAPI](https://brasilapi.com.br/).
 > Somos gratos pela iniciativa de disponibilizar dados públicos de forma aberta. Conheça o projeto oficial e utilizando este pacote, você concorda automaticamente com os [termos de uso da BrasilAPI](https://brasilapi.com.br/#termos-de-uso).
+
+[Nuget.Org: LeadSoft.Adapter.BrasilAPI](https://www.nuget.org/packages/LeadSoft.Adapter.BrasilAPI)
 
 ## Principais características
 - Compatível com .NET 9.0.
