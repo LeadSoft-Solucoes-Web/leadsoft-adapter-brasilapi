@@ -1,0 +1,81 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<Company>LeadSoft® Soluções Web Ltda</Company>
+		<Authors>Lucas R. Tavares | Frederico F. Bitencourt</Authors>
+		<Product>LeadSoft® Brasil Api Adapter</Product>
+		<RepositoryType>Bitbucket</RepositoryType>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Description>LeadSoft® Brasil Api integration methods and classes.</Description>
+		<RepositoryUrl>https://bitbucket.org/leadsoft_solucoes_web/leadsoft-common-lib/</RepositoryUrl>
+		<NeutralLanguage>en-US</NeutralLanguage>
+		<PackageIcon>LeadSoft.png</PackageIcon>
+		<PackageProjectUrl>https://www.leadsoft.inf.br/</PackageProjectUrl>
+		<ApplicationIcon>LeadSoft.ico</ApplicationIcon>
+		<SignAssembly>False</SignAssembly>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Title>LeadSoft® Brasil Api Integration Adapter</Title>
+		<Copyright>© LeadSoft® 2025</Copyright>
+		<AssemblyVersion>9.1.4.0</AssemblyVersion>
+		<FileVersion>9.1.4.0</FileVersion>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+		<AnalysisLevel>latest-all</AnalysisLevel>
+		<Version>9.1.4</Version>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<DocumentationFile>.\LeadSoft.Adapter.BrasilAPI.xml</DocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+		<WarningsAsErrors />
+		<DocumentationFile>.\LeadSoft.Adapter.BrasilAPI.xml</DocumentationFile>
+		<Optimize>false</Optimize>
+		<DebugType>embedded</DebugType>
+		<CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<DebugType>embedded</DebugType>
+		<Optimize>true</Optimize>
+		<CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\LeadSoft.png" Link="LeadSoft.png">
+	    <PackagePath></PackagePath>
+	    <Pack>True</Pack>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="LeadSoft.Common.Library" Version="9.1.7" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="BrasilApi_EndPoint.Designer.cs">
+			<DependentUpon>BrasilApi_EndPoint.resx</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Update="BrasilApi_EndPoint.resx">
+			<LastGenOutput>BrasilApi_EndPoint.Designer.cs</LastGenOutput>
+			<Generator>ResXFileCodeGenerator</Generator>
+		</EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="README.md">
+			<PackagePath>\</PackagePath>
+			<Pack>True</Pack>
+		</None>
+	</ItemGroup>
+
+</Project>

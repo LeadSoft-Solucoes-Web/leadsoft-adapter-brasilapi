@@ -1,0 +1,437 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LeadSoft.Adapter.BrasilAPI</name>
+    </assembly>
+    <members>
+        <member name="T:LeadSoft.Adapter.BrasilAPI.BrasilApi">
+            <summary>
+            Brasil API integration
+            </summary>
+            <summary>
+            Brasil API integration
+            </summary>
+        </member>
+        <member name="M:LeadSoft.Adapter.BrasilAPI.BrasilApi.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:LeadSoft.Adapter.BrasilAPI.BrasilApi.Dispose">
+            <summary>
+            Dispose Method
+            </summary>
+        </member>
+        <member name="M:LeadSoft.Adapter.BrasilAPI.BrasilApi.GetCnpjInfoAsync(System.String)">
+            <summary>
+            Method exposed to get Company information by cnpj
+            </summary>
+            <param name="aCNPJ">CNPJ</param>
+            <returns>DTOBrasilApiCnpjResponse</returns>
+        </member>
+        <member name="M:LeadSoft.Adapter.BrasilAPI.BrasilApi.GetBanksInfoAsync">
+            <summary>
+            Method exposed to get Banks Information
+            </summary>
+            <returns>DTOBrasilApiBanksResponse</returns>
+        </member>
+        <member name="M:LeadSoft.Adapter.BrasilAPI.BrasilApi.GetHolidaysInfoAsync(System.Int32)">
+            <summary>
+            Method exposed to get Holidays dates
+            </summary>
+            <param name="aYear">Year</param>
+            <returns>DTOBrasilApiHolidaysResponse</returns>
+        </member>
+        <member name="T:LeadSoft.Adapter.BrasilAPI.BrasilApi_EndPoint">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.BrasilApi_EndPoint.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.BrasilApi_EndPoint.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.BrasilApi_EndPoint.Get_Banks_v1">
+            <summary>
+              Looks up a localized string similar to banks/v1.
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.BrasilApi_EndPoint.Get_CNPJ_v1">
+            <summary>
+              Looks up a localized string similar to cnpj/v1/{0}.
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.BrasilApi_EndPoint.Get_Holidays_v1">
+            <summary>
+              Looks up a localized string similar to feriados/v1/{0}.
+            </summary>
+        </member>
+        <member name="T:LeadSoft.Adapter.BrasilAPI.DTOs.Banks.DTOBrasilApiBankResponse">
+            <summary>
+            DTO Brasil Api Banks Response
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.Banks.DTOBrasilApiBankResponse.Ispb">
+            <summary>
+            Ispb
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.Banks.DTOBrasilApiBankResponse.Name">
+            <summary>
+            Bank Name
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.Banks.DTOBrasilApiBankResponse.Code">
+            <summary>
+            Bank Code
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.Banks.DTOBrasilApiBankResponse.FullName">
+            <summary>
+            Bank Full Name
+            </summary>
+        </member>
+        <member name="T:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjCnaeSecundario">
+            <summary>
+            
+            </summary>
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjCnaeSecundario.Codigo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjCnaeSecundario.Descricao">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse">
+            <summary>
+            DTO Brasil Api Cnpj Response
+            </summary>
+            <summary>
+            DTO Brasil Api Cnpj Response - Methods
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.Cnpj">
+            <summary>
+            Cnpj
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.IdentificadorMatrizFilial">
+            <summary>
+            Identificador Matriz Filal
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.DescricaoMatrizFilial">
+            <summary>
+            Descrição matriz filial
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.RazaoSocial">
+            <summary>
+            Razão Social
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.NomeFantasia">
+            <summary>
+            Nome Fantasia
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.SituacaoCadastral">
+            <summary>
+            Situação Cadastral
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.DescricaoSituacaoCadastral">
+            <summary>
+            Descrição Situação Cadastral
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.DataSituacaoCadastral">
+            <summary>
+            Data Situação Cadastral
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.MotivoSituacaoCadastral">
+            <summary>
+            Motivo Situação Cadastral
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.NomeCidadeExterior">
+            <summary>
+            Nome Cidade Exterior
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.CodigoNaturezaJuridica">
+            <summary>
+            Código Natureza Jurídica
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.DataInicioAtividade">
+            <summary>
+            Data Inicio Atividade
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.CnaeFiscal">
+            <summary>
+            Cnae Fiscal
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.CnaeFiscalDescricao">
+            <summary>
+            Cnae Fiscal Descição
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.DescricaoTipoLogradouro">
+            <summary>
+            Descrição Tipo Logradouro
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.Logradouro">
+            <summary>
+            Logradouro
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.Numero">
+            <summary>
+            Numero
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.Complemento">
+            <summary>
+            Complemento
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.Bairro">
+            <summary>
+            Bairro Cep
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.Cep">
+            <summary>
+            Cep
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.Uf">
+            <summary>
+            UF
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.CodigoMunicipio">
+            <summary>
+            Código Município
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.Municipio">
+            <summary>
+            Município
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.DddTelefone1">
+            <summary>
+            DDD Telefone 1
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.DddTelefone2">
+            <summary>
+             DDD Telefone 2
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.DddFax">
+            <summary>
+            DDD Fax
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.QualificacaoDoResponsavel">
+            <summary>
+            Qualificação do Responsável
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.CapitalSocial">
+            <summary>
+            Capital Social
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.Porte">
+            <summary>
+            Porte
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.DescricaoPorte">
+            <summary>
+            Descrição Social
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.OpcaoPeloSimples">
+            <summary>
+            Opção Pelo Simples
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.DataOpcaoPeloSimples">
+            <summary>
+            Data Opção Pelo Simples
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.DataExclusaoDoSimples">
+            <summary>
+            Data Exclusão do Simples
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.OpcaoPeloMei">
+            <summary>
+            Opção Pelo Mei
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.SituacaoEspecial">
+            <summary>
+            Situação Especial
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.DataSituacaoEspecial">
+            <summary>
+            Data Situacao Especial
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.Qsa">
+            <summary>
+            Qsa
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjResponse.DtoCnaesSecundarios">
+            <summary>
+            Cnaes Secundarias
+            </summary>
+        </member>
+        <member name="T:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjSocio">
+            <summary>
+            DTO Brasil Api Cnpj Socio
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjSocio.Cnpj">
+            <summary>
+            CNPJ
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjSocio.IdentificadorDeSocio">
+            <summary>
+            Identificador de Socio
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjSocio.NomeSocio">
+            <summary>
+            Nome Socio
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjSocio.CnpjCpfDoSocio">
+            <summary>
+            CNPJ/CPF Do Socio
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjSocio.CodigoQualificacaoSocio">
+            <summary>
+            Código de Qualificação Sócio
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjSocio.PercentualCapitalSocial">
+            <summary>
+            Percentual Capital Social
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjSocio.DataEntradaSociedade">
+            <summary>
+            Data Entrada Sociedade
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjSocio.CpfRepresentanteLegal">
+            <summary>
+            Cpf Representante Legal
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjSocio.NomeRepresentanteLegal">
+            <summary>
+            Nome Representante Legal
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.CNPJs.DTOBrasilApiCnpjSocio.CodigoQualificacaoRepresentanteLegal">
+            <summary>
+            Código Qualificação Representante Legal
+            </summary>
+        </member>
+        <member name="T:LeadSoft.Adapter.BrasilAPI.DTOs.Holidays.DTOBrasilApiHolidayResponse">
+            <summary>
+            Brasil Api Holiday Response
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.Holidays.DTOBrasilApiHolidayResponse.Date">
+            <summary>
+            Date
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.Holidays.DTOBrasilApiHolidayResponse.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:LeadSoft.Adapter.BrasilAPI.DTOs.Holidays.DTOBrasilApiHolidayResponse.Type">
+            <summary>
+            Holyday Tyoe
+            </summary>
+        </member>
+        <member name="T:LeadSoft.Adapter.BrasilAPI.IBrasilApi">
+            <summary>
+            Brasil API integration interface
+            </summary>
+        </member>
+        <member name="M:LeadSoft.Adapter.BrasilAPI.IBrasilApi.GetCnpjInfoAsync(System.String)">
+            <summary>
+            Method exposed to get Company information by cnpj
+            </summary>
+            <param name="aCNPJ">CNPJ</param>
+            <returns>DTOBrasilApiCnpjResponse</returns>
+        </member>
+        <member name="M:LeadSoft.Adapter.BrasilAPI.IBrasilApi.GetBanksInfoAsync">
+            <summary>
+            Method exposed to get Banks Information
+            </summary>
+            <returns>DTOBrasilApiBanksResponse</returns>
+        </member>
+        <member name="M:LeadSoft.Adapter.BrasilAPI.IBrasilApi.GetHolidaysInfoAsync(System.Int32)">
+            <summary>
+            Method exposed to get Holidays dates
+            </summary>
+            <param name="aYear">Year</param>
+            <returns>DTOBrasilApiHolidaysResponse</returns>
+        </member>
+        <member name="T:LeadSoft.Adapter.BrasilAPI.Injection">
+            <summary>
+            Adds the BrasilApi service to the specified <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/> with the specified lifetime.
+            </summary>
+            <remarks>This method registers the <see cref="T:LeadSoft.Adapter.BrasilAPI.IBrasilApi"/> implementation in the dependency    
+            injection container. Use a singleton lifetime for shared state across the application, or a scoped lifetime    
+            for a new instance per request.</remarks>
+        </member>
+        <member name="M:LeadSoft.Adapter.BrasilAPI.Injection.AddBrasilApi(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Boolean)">
+            <summary>
+            Adds the BrasilApi service to the specified <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/> with the specified lifetime.
+            </summary>
+            <remarks>This method registers the <see cref="T:LeadSoft.Adapter.BrasilAPI.IBrasilApi"/> implementation in the dependency
+            injection container. Use a singleton lifetime for shared state across the application, or a scoped lifetime
+            for a new instance per request.</remarks>
+            <param name="services">The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/> to which the BrasilApi service will be added.</param>
+            <param name="useSingleton">A boolean value indicating whether to register the BrasilApi service as a singleton. <see langword="true"/>
+            to register as a singleton; otherwise, <see langword="false"/> to register with a scoped lifetime.</param>
+        </member>
+    </members>
+</doc>
