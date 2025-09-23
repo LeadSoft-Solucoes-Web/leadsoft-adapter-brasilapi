@@ -11,7 +11,7 @@
 		<RepositoryType>git</RepositoryType>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Description>LeadSoft® Brasil Api integration methods and classes.</Description>
-		<RepositoryUrl>https://github.com/LeadSoft-Solucoes-Web/LeadSoft-Adapter-BrasilAPI</RepositoryUrl>
+		<RepositoryUrl>https://github.com/LeadSoft-Solucoes-Web/leadsoft-adapter-brasilapi</RepositoryUrl>
 		<NeutralLanguage>en-US</NeutralLanguage>
 		<PackageIcon>LeadSoft.png</PackageIcon>
 		<PackageProjectUrl>https://www.leadsoft.inf.br/</PackageProjectUrl>
