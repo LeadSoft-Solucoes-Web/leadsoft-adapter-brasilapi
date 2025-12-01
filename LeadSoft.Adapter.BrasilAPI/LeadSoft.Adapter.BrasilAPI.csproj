@@ -5,9 +5,9 @@
 		<Company>LeadSoft® Soluções Web Ltda</Company>
 		<Authors>Lucas R. Tavares</Authors>
 		<Product>LeadSoft® Brasil Api Adapter</Product>
-		<AssemblyVersion>10.0.0.0</AssemblyVersion>
-		<FileVersion>10.0.0.0</FileVersion>
-		<Version>10.0.0</Version>
+		<AssemblyVersion>10.0.1.0</AssemblyVersion>
+		<FileVersion>10.0.1.0</FileVersion>
+		<Version>10.0.1</Version>
 		<RepositoryType>git</RepositoryType>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Description>LeadSoft® Brasil Api integration methods and classes.</Description>

@@ -40,7 +40,7 @@ namespace LeadSoft.Adapter.BrasilAPI
                     _ => throw new AppException($"{dtoError.StatusCode} | {dtoError.Reason} -> '{dtoError.Content}'"),
                 };
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 throw;
             }
@@ -68,7 +68,7 @@ namespace LeadSoft.Adapter.BrasilAPI
                     _ => throw new AppException($"{dtoError.StatusCode} | {dtoError.Reason} -> '{dtoError.Content}'"),
                 };
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 throw;
             }
@@ -98,7 +98,7 @@ namespace LeadSoft.Adapter.BrasilAPI
                     _ => throw new AppException($"{dtoError.StatusCode} | {dtoError.Reason} -> '{dtoError.Content}'"),
                 };
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 throw;
             }
