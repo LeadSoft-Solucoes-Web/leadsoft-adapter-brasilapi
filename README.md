@@ -12,7 +12,7 @@ Fornece uma camada simples e testável para consumir endpoints públicos da Bras
 #### [GitHub Repo: leadsoft-adapter-brasilapi](https://github.com/LeadSoft-Solucoes-Web/leadsoft-adapter-brasilapi)
 
 ## Principais características
-- Compatível com .NET 9.0.
+- Compatível com .NET 10.0.
 - Chamadas assíncronas com `async`/`await`.
 - Integração simples com _Dependency Injection_ (DI) do .NET.
 - Projetado para ser testável (injeção de `HttpClient`, separação de responsabilidades).
@@ -94,9 +94,9 @@ LeadSoft.Adapter.BrasilAPI — adapter leve e testável para facilitar a integra
 
 ###  Development  
 Desenvolvido pelo time da LeadSoft® Soluções Web.
-* Lucas Resende Tavares
-* Frederico Ferreira Bitencourt
-* Pedro Foresti Leão
+* [Lucas Resende Tavares](https://www.linkedin.com/in/lucasrtavares/)
+* ~~Frederico Ferreira Bitencourt~~
+* ~~Pedro Foresti Leão~~
   
 #### Nossa empresa
 LeadSoft Soluções Web Ltda
