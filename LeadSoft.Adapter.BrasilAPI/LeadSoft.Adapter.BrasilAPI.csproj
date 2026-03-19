@@ -57,7 +57,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="LeadSoft.Common.Library" Version="10.0.0" />
+	  <PackageReference Include="LeadSoft.Common.Library" Version="10.0.1" />
 	</ItemGroup>
 
 	<ItemGroup>
